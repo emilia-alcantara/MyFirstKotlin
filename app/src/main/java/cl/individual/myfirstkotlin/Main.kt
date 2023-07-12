@@ -4,6 +4,8 @@ fun main() {
     println("Ingresa el valor a convertir")
     val input = readLine()!!.toDouble()
 
+    println("Resultados: ")
+
     //De Celsius a Fahrenheit: °F = 9/5 (°C) + 32
     val toFahrenheit = input * 9/5 + 32
     println("Celsius a Fahrenheit: $toFahrenheit")
